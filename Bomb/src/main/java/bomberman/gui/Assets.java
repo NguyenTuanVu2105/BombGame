@@ -1,0 +1,51 @@
+package bomberman.gui;
+
+import java.awt.*;
+
+public class Assets {
+    public static Image background = ImageLoader.loadImage("/img/background.jpg");
+    public static Image playButton = ImageLoader.loadImage("/img/play_button.png");
+    public static Image playButton1 = ImageLoader.loadImage("/img/play_button1.png");
+    public static Image exitButton = ImageLoader.loadImage("/img/exit_button.png");
+    public static Image exitButton1 = ImageLoader.loadImage("/img/exit_button1.png");
+    public static Image soundOnButton = ImageLoader.loadImage("/img/sound_on.png");
+    public static Image soundOnButton1 = ImageLoader.loadImage("/img/sound_on1.png");
+    public static Image soundOffButton = ImageLoader.loadImage("/img/sound_off.png");
+    public static Image soundOffButton1 = ImageLoader.loadImage("/img/sound_off1.png");
+    //public static Image background = ImageLoader.loadImage("/img/background.jpg");
+    public static Image brick = ImageLoader.loadImage("/img/tile_wood.png");
+    public static Image grass = ImageLoader.loadImage("/img/tile_grass.png");
+    public static Image player_down1 = ImageLoader.loadImage("/img/player.png").getSubimage(32,0,32,48);
+    public static Image player_down2 = ImageLoader.loadImage("/img/player.png").getSubimage(96,0,32,48);
+    public static Image player_left1 = ImageLoader.loadImage("/img/player.png").getSubimage(32,48,32,48);
+    public static Image player_left2 = ImageLoader.loadImage("/img/player.png").getSubimage(96,48,32,48);
+    public static Image player_right1 = ImageLoader.loadImage("/img/player.png").getSubimage(32,96,32,48);
+    public static Image player_right2 = ImageLoader.loadImage("/img/player.png").getSubimage(96,96,32,48);
+    public static Image player_up1 = ImageLoader.loadImage("/img/player.png").getSubimage(32,144,32,48);
+    public static Image player_up2 = ImageLoader.loadImage("/img/player.png").getSubimage(96,144,32,48);
+    public static Image player_dead = ImageLoader.loadImage("/img/player_dead.png");
+    public static Image wall = ImageLoader.loadImage("/img/tile_wall.png");
+    public static Image monster_down1 = ImageLoader.loadImage("/img/hulk.png").getSubimage(40,0,40,56);
+    public static Image monster_down2 = ImageLoader.loadImage("/img/hulk.png").getSubimage(120,0,40,56);
+    public static Image monster_left1 = ImageLoader.loadImage("/img/hulk.png").getSubimage(40,56,40,56);
+    public static Image monster_left2 = ImageLoader.loadImage("/img/hulk.png").getSubimage(120,56,40,56);
+    public static Image monster_right1 = ImageLoader.loadImage("/img/hulk.png").getSubimage(40,112,40,56);
+    public static Image monster_right2 = ImageLoader.loadImage("/img/hulk.png").getSubimage(120,112,40,56);
+    public static Image monster_up1 = ImageLoader.loadImage("/img/hulk.png").getSubimage(40,168,40,56);
+    public static Image monster_up2 = ImageLoader.loadImage("/img/hulk.png").getSubimage(120,168,40,56);
+    public static Image monster_dead = ImageLoader.loadImage("/img/hulk_dead.png");
+    public static Image boom = ImageLoader.loadImage("/img/bomb.png").getSubimage(0,0,28,28);
+    public static Image flame_up1 = ImageLoader.loadImage("/img/bang_up.png");
+    public static Image flame_up2 = ImageLoader.loadImage("/img/bang_up1.png");
+    public static Image flame_down1 = ImageLoader.loadImage("/img/bang_down.png");
+    public static Image flame_down2 = ImageLoader.loadImage("/img/bang_down1.png");
+    public static Image flame_left1 = ImageLoader.loadImage("/img/bang_left.png");
+    public static Image flame_left2 = ImageLoader.loadImage("/img/bang_left1.png");
+    public static Image flame_right1 = ImageLoader.loadImage("/img/bang_right.png");
+    public static Image flame_right2 = ImageLoader.loadImage("/img/bang_right1.png");
+    public static Image flame_center = ImageLoader.loadImage("/img/bang.png");
+    public static Image item_speed_increase = ImageLoader.loadImage("/img/ItemSpeed.png").getSubimage(0,0,32,32);
+    public static Image item_boom = ImageLoader.loadImage("/img/ItemBoom.png").getSubimage(0,0,32,32);
+    public static Image item_flame = ImageLoader.loadImage("/img/ItemFlame.png").getSubimage(0,0,32,32);
+    public static Image item_speed_decrease = ImageLoader.loadImage("/img/speed_decrease.png").getSubimage(0,0,32,32);
+}
